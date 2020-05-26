@@ -390,7 +390,7 @@ const upload_photo = multer({
      * for now don't save file to disk and upload buffer to
      * dropbox
      */
-    //dest: "public/photos/",
+    dest: "public/photos/",
     storage: multer.memoryStorage(),
     fileFilter: (req, file, cb) => {
 	/*

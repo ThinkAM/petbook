@@ -1,0 +1,7 @@
+db.createUser(
+   {
+     user: "petbook_root",
+     pwd: "root",  
+     roles: [ "readWrite", "dbAdmin" ]
+   }
+)
